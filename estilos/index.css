@@ -36,14 +36,16 @@ footer{
 /*--------------HEADER-------------*/
 #headright{
     height: 100%;
-    width: 20%;
+    width: 30%;
     display: flex;
     align-items: center;
 }
 
 #tipog{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
+    font-size: 1.5rem;
+    margin: 1rem;
+    
    
 }
 #logo{
@@ -53,30 +55,72 @@ footer{
     
 }
 .cube{
-    width: 35px;
-    height: 30;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     margin: 5px;
+    box-shadow:1px 1px 3px black;
     
     
 }
 #pesquisa{
     height: 100%;
+    overflow: hidden;
+    width: 30%;
+    height: 50px;
     display: flex;
     align-items: center;
+   
+    color: rgba(0, 0, 0, 0.274);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
 }
 #inputpesquisa{
-    border: none;  
-    border-radius: 50px;
-    width: 100%;
-    font-size: medium;
-    color: rgba(0, 0, 0, 0.274);
+    border: none;
+    margin-left: 15px;
+    width: 50%;
+    height: 30px;
+    font-size: large;
+    z-index: 1011;
+    
+}
+#pesqdiv{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #e7e7d4;
 }
 #iconpesq{
     width: 20px;
+   
+   
 }
-
-
+#cadastro{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginbtn{
+    color: white;
+    background-color:#e7e7d4 ;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: medium;
+    cursor: pointer;
+}
+.loginbtn:hover{
+    opacity: .8;
+}
 
 /*----------MAIN------------------*/
 .menu{
@@ -105,30 +149,53 @@ footer{
     cursor: pointer;
     height: 1.5rem;
     padding: 5px;
-    margin: 5px;
+    margin: .515rem;
     
 }
 .menu li:hover{
     background-color: #e7e7d4;
     opacity: .5;
     transition: all .3s;
+    border-radius: 5px;
 }
 
-#categorias{
-   overflow-y: hidden;
-}
 .submenu{
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.096);
     list-style: none;
-   
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top:-5px ;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    
 
 }
-.submenu li{
-    z-index: 1000;  
+.submenu.aberto{
+    display: flex;
+}
+.subitens{
+        
+        border-radius: 5px;
+        cursor: pointer;
+        height: 1.5rem;
+        padding: 5px;
+        margin: .3rem;
+        flex-direction: column;
+    
+}
+
+.subitens:hover{
+    background-color: #e7e7d4;
+    opacity: .5;
+    transition: all .3s;
 }
 #Iconmenu hr{
     width: 100%;
 }
-
 #Iconmenu{
     position: absolute;
     top: 64px;
@@ -141,19 +208,19 @@ footer{
    
 }
 .icons-menu{
+
     width: 1.5rem;
     height: 1.5rem;
-    margin:5px;
+    margin:.5rem;
     cursor: pointer;
     padding: 3px;
 }
 .icons-menu:hover{
     background-color: #e7e7d4;
+    border-radius: 10px;
     opacity: .5;
     transition: all .3s;
 }
-
-
 
 /*Footer*/
 

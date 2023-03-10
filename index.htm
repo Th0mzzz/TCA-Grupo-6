@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="estilos/index.css">
     <title>Primeiro Teste AEDOS</title>
 </head>
 <body>
@@ -17,10 +17,10 @@
         </div>
         <div id="pesquisa">
             <input id="inputpesquisa" type="text">
-            <img id="iconpesq" src="" alt="iconpesq">
+            <div id='pesqdiv'><img id="iconpesq" src="img/icons8-search-20.png" alt="iconpesq"></div>
         </div>
         <div id="cadastro">
-
+            <a href="#"><input class="loginbtn" type="button" value="Entrar"></a>
         </div>
     </header>
     <main>
@@ -29,7 +29,7 @@
                 <li><a href="index.htm"><img class='icons-menu' src="img/icons8-home-page-30.png" alt="icon"></a></li>
                 <li><img class="icons-menu" src="img/icons8-community-64.png" alt=""></li>
                 <li><img class="icons-menu" src="img/icons8-streaming-24.png" alt=""></li>
-                
+                <hr>
                 <li><img class="icons-menu" src="img/icons8-automatic-20.png" alt=""></li>
                 <li><img class="icons-menu" src="img/icons8-user-20.png" alt=""></li>
                 
@@ -37,13 +37,15 @@
             <ul class="menu">
                 <li><a>Home</a></li>
                 <li><a>Comunidade</a></li>
-                <ul id="categorias">Categorias
-                        <li><a>Streamings</a></li>
-                        <li><a>Cinema</a></li>
-                        <li><a>Teatros</a></li>
-                        <li><a>Podcasts e Stand ups</a></li>
-                        <li><a>Livros</a></li>
-                </ul>
+                <li id="categorias" >Categorias</li>
+                    <div class="submenu">
+                        <a class="subitens">Streamings</a>
+                        <a class="subitens">Cinema</a>
+                        <a class="subitens">Teatros</a>
+                        <a class="subitens">Podcasts e Stand ups</a>
+                        <a class="subitens">Livros</a>
+                    </div>
+                
                 <li><a>Configurações</a></li>
                 <li><a>Sua Conta</a></li>
                 <li><a>Sobre</a></li>
@@ -59,5 +61,5 @@
       <div id="ICONS8">  <a  target="_blank" href="https://icons8.com/icon/83804/menu-quadrado">Menu Quadrado</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div>
     </footer>
 </body>
-<script src="index.js"></script>
+<script src="scripts/index.js"></script>
 </html>
