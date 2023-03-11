@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="stylesheet" href="estilos/Cadastrar.css">
     <link rel="stylesheet" href="fontawesome/fontawesome-free-6.3.0-web/css/all.min.css">
-    <title>Fazer Login</title>
+    <title>Cadastrar-se</title>
 </head>
-    <script src="scripts/login.js"></script>
+    <script src="scripts/Cadastrar.js"></script>
 <body>
     <a class="Back" href="index.htm"><i class="fa-solid fa-arrow-left"></i></a>
     <Section id="Container">
         <div class="Formulario">
-            <h1 id="h1form">Fazer Login</h1>
+            <h1 id="h1form">Cadastrar-se</h1>
             <div class="forms">
-                
+
+                <input type="text" class="inputform" placeholder="Nome Completo">
+                <hr>
                 <input type="text" name="USER"  class="inputform" placeholder="Email ou número de telefone">
                 <hr>
-                <input type="password" name="Senha" class="inputform" placeholder="Senha">
-                <hr>
+                <div class="senhas">
+                    <input type="password" name="Senha" class="inputsenha" placeholder="Senha">
+                    <input type="text" class="inputsenha" placeholder="Confirme sua senha">
+                </div>
+                
+                
             </div>
             <div id="btn">
                 <a href="index.htm"><button id="continuar">Continue</button></a>
@@ -42,7 +48,7 @@
                 </div>
             </div>
             <div id="create">
-                Não tem uma conta? <a href="Cadastrar.htm" id="criar">Crie uma</a>
+                Já tem uma conta? <a href="login.htm" id="criar">Faça Login</a>
             </div>
            
         
