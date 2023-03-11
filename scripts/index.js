@@ -22,7 +22,7 @@ const subitens = document.querySelector('a.subitens')
 
 categorias.addEventListener('click', () => {
   submenu.classList.add('aberto');
-
+  
 
 });
 submenu.addEventListener('mouseleave', () => {

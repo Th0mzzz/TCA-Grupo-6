@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-6.3.0-web/css/all.min.css">
     <title>Primeiro Teste AEDOS</title>
 </head>
 <body>
@@ -16,28 +17,30 @@
         <h2 id="tipog">AEDO's</h2>
         </div>
         <div id="pesquisa">
-            <input id="inputpesquisa" type="text">
-            <div id='pesqdiv'><img id="iconpesq" src="img/icons8-search-20.png" alt="iconpesq"></div>
+            <input id="inputpesquisa" type="text" name="Pesquisar">
+            <div id='pesqdiv'><i class="fa-solid fa-magnifying-glass"></i></div>
         </div>
         <div id="cadastro">
-            <a href="#"><input class="loginbtn" type="button" value="Entrar"></a>
+            <button class="loginbtn">
+                <i class="fa-regular fa-user"></i> Fazer Login
+              </button>
         </div>
     </header>
     <main>
         <nav>
             <ul id="Iconmenu">
-                <li><a href="index.htm"><img class='icons-menu' src="img/icons8-home-page-30.png" alt="icon"></a></li>
-                <li><img class="icons-menu" src="img/icons8-community-64.png" alt=""></li>
-                <li><img class="icons-menu" src="img/icons8-streaming-24.png" alt=""></li>
+                <li class="icons-menu"><a href="index.htm"><i class="fa-sharp fa-solid fa-house"></i></a></li>
+                <li class="icons-menu"><a href=""><i class="fa-solid fa-globe"></i></a></li>
+                <li class="icons-menu"><a href=""><i class="fa-solid fa-plus"></i></a></li>
                 <hr>
-                <li><img class="icons-menu" src="img/icons8-automatic-20.png" alt=""></li>
-                <li><img class="icons-menu" src="img/icons8-user-20.png" alt=""></li>
+                <li class="icons-menu"><a href=""><i class="fa-solid fa-gear"></i></a></li>
+                <li class="icons-menu"><a href=""><i class="fa-solid fa-user"></i></a></li>
                 
             </ul>
             <ul class="menu">
                 <li><a>Home</a></li>
                 <li><a>Comunidade</a></li>
-                <li id="categorias" >Categorias</li>
+                <li id="categorias" >Categorias<i class="fa-solid fa-angle-down"></i></li>
                     <div class="submenu">
                         <a class="subitens">Streamings</a>
                         <a class="subitens">Cinema</a>
