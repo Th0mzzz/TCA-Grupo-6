@@ -47,6 +47,8 @@ footer{
 
 #tipog{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    opacity: .8;
     font-size: 1.5rem;
     margin: 1rem;
     cursor: pointer;
@@ -119,8 +121,9 @@ footer{
     padding: 10px;
 }
 .loginbtn{
+    border: solid rgba(0, 0, 0, 0.6) 1px ;
     padding: 10px;    
-    color: black;
+    color: rgba(0, 0, 0, 0.6);
     width:150px;
     height: 65%;
     background-color: #f5f5dc;
@@ -128,13 +131,14 @@ footer{
     font-size: 16px;
     cursor: pointer;
     margin-right: 1.5rem;
+    transition: all ease-in-out .2s;
 }
 .loginbtn i {
     margin-right: 5px;
   }
 .loginbtn:hover{
-    opacity: .9;
-    background-color: #bbbbae;
+    opacity: .6;
+    background-color: black;
     color: white;
 }
 
